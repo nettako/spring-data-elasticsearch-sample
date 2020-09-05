@@ -4,10 +4,10 @@ What need todo prepare
 * Version Spring Data Elasticsearch: 4.0.3.RELEASE
 * Version Elasticsearch Client in build: 7.6.2
 * Version Elasticsearch Client used: 7.6.2
-* Version Elasticsearch cluster: 7.6.2 (elasticsearch installed must bee the same)
+* Version Elasticsearch cluster: 7.6.2 (elasticsearch installed must be the same)
 * Data type in elasticsearch 7 that you must handle
 
-###Known Issue Spring-data elasticsearch for Elasticsearch 7
+### Known Issue Spring-data elasticsearch for Elasticsearch 7
 Disable auto create index (with createIndex = false) due to bugs on auto create index date field mapping pattern. 
 when parsing date this will be error if you create index with spring data.
 
